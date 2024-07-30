@@ -57,7 +57,7 @@ voting_events_columns = ['voting_id', 'name', 'vote', 'timestamp']
 voting_events_datatypes = ['text', 'text', 'text', 'text']
 voting_statuses_columns = ['voting_id', 'voting_status', 'timestamp']
 voting_statuses_datatypes = ['text', 'int', 'text']
-allowed_votes = ['?', '☕', '0', '0.5', '1', '2', '3', '5', '8', '13', '21']
+allowed_votes = ['?', '☕', '0', '0.5', '1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5', '5.5', '6', '6.5', '7', '7.5', '8', '8.5', '9', '9.5', '10']
 user_retention_time = '-2 hours'
 regex = re.compile('[^a-zA-Z]')
 
